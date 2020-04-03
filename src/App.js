@@ -11,8 +11,8 @@ const INITIAL_VIEW_STATE = {
 	height: 1176,
 	orbitAxis: 'Z',
 	position: [ 0, 0, 0 ],
-	rotationOrbit: 6.466275659824047,
-	rotationX: -89.999,
+	rotationOrbit: 8.219084648588094,
+	rotationX: 0.7049608355091377,
 	target: [ -64541.11565260632, -146767.10235869358, 15.396177578410983 ],
 	transitionDuration: 0,
 	width: 1364,
@@ -46,7 +46,6 @@ function App() {
 
 	return (
 		<div className="App">
-			<span>{console.log(viewport)}</span>
 			<DeckGL
 				views={new OrbitView()}
 				viewState={viewport}
