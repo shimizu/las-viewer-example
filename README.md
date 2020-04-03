@@ -34,3 +34,9 @@ yarn build
 約9MBのLAZファイルを読み込むので注意してください。
 
 [demo](https://shimz.me/example/deckgl/v7/las-view/)
+
+### データ元
+
+表示しているLAZファイルは静岡県が公開しているオープンデータを使わせてもらっています。
+
+[Shizuoka Point Cloud DB](https://pointcloud.pref.shizuoka.jp/)
